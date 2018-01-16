@@ -31,3 +31,7 @@ int main (){
 	samsung.led("tv yang sangat-sangat bagus "); 
 		
 }
+
+void tv::led(string led){
+	cout<<"Tv khusus led "<<led<<"\n";
+}
