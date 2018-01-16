@@ -23,4 +23,11 @@ int main (){
 	sharp.ukuran = "Ukuran 40 inch - 59 inch ";
 	samsung.ukuran = "Ukuran 360 inch - larger ";
 	
-};
+	cout<<"tv lg "<< (lg.suara) << (lg.grafik) << (lg.ukuran);
+	lg.led("Tv yang lumayan bagus ");
+	cout<<"tv sharp "<< (sharp.suara) << (sharp.grafik) << (sharp.ukuran);
+	sharp.led("Tv kualitas standar ");
+	cout<<"tv samsung "<< (samsung.suara) << (samsung.grafik) << (samsung.ukuran);
+	samsung.led("tv yang sangat-sangat bagus "); 
+		
+}
