@@ -8,6 +8,7 @@ class tv{
 		string suara, grafik, ukuran;	
 };
 
-int main {
-
+int main (){
+	tv lg, sharp, samsung;
+	
 };
